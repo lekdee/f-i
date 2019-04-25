@@ -21,7 +21,11 @@
   </v-toolbar>
 
   <v-navigation-drawer v-model="drawer" class="grey darken-4" app dark fixed hide-overlay width="250">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Yamaha_Motor_logo.svg/1280px-Yamaha_Motor_logo.svg.png" width="230" height="60">
+    <v-flex mt-2>
+      <v-layout justify-center>
+        <img src="https://testtingfuck.000webhostapp.com/imageLogo/ForBgDark.png" width="240" height="80">
+      </v-layout>
+    </v-flex>
       <v-list>
         <v-list-tile avatar>
           <v-list-tile-avatar>
